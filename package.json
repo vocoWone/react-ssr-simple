@@ -1,0 +1,32 @@
+{
+  "name": "react-ssr-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "node ./build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.6",
+    "@types/koa-static": "^4.0.1",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "chalk": "^4.1.0",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.1.2",
+    "webpack": "^5.9.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
